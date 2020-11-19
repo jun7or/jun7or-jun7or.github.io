@@ -1,0 +1,185 @@
+/*Para alterar as palavras "BR ENTREGA" e "FORMAS DE PAGAMENTOS"*/
+.txt{
+	text-transform: uppercase;
+	/*Transforma todo texto em maiúsculo*/
+	text-align: center;
+	/*Para centralizar as palavras na tela*/
+	margin-top: 12.5px;
+	/*Para mexer no espaçamento externo de cima*/
+	color: #FFFFFF;
+	/*Para mudar a cor das palavras*/
+}
+
+/*Para adicionar o fundo amarelo do "---BR ENTREGA---"*/
+.br-entrega{	
+	height:50px;
+	background-color: #F9C411;
+	font-family: Mostra Nuova;
+}
+
+
+
+/*-------------------|DAQUI PARA BAIXO, É O MIOLO DA PÁGINA|----------------------*/
+
+/*Espaço onde será colocado o conteúdo do miolo*/
+.entrega{
+	height: 900px;
+	background-color: none;
+}
+
+/*Para mexer nos textos das DUAS COLUNAS*/
+.br-txt{
+	text-align: center;
+	font-size: 25px;
+	font-family: Roboto;
+	color: #41AB6F;
+}
+
+/*LADO ESQUERDO*/
+/*Para criar uma borda e centralizar o conteúdo*/
+.ja-disp{
+	/*Para mexer nos números*/
+	text-align: center;
+	font-size: 25px;
+	font-family: Roboto;
+	/*Para adicionar e mexer na borda*/
+	border: 2px solid #2B80E6;
+	padding-top: 250px;
+	padding-bottom: 200px;
+	margin-top: 100px;
+	margin-left: 25px;
+}
+
+/*Para alinhar os ícones de telefone com os números*/
+.tel{
+	vertical-align: middle;
+	/*Para tirar a marcação da lista*/
+	display: block;
+}
+
+/*Para alterar o tamanho dos ícones*/
+.nume{
+	width: 28px;
+}
+
+h4{
+	text-align: center;
+	font-size: 25px;
+	font-family: Mostra Nuova;
+	color: #FFFFFF;
+	padding-top: 5px;
+}
+
+/*LADO DIREITO*/
+/*Para mexer no fundo do TÍTULO*/
+.br-tit{
+	background-color: #41AB6F;
+	margin-top: 15.65%;
+	height: 40px;
+}
+/*Para alterar o tamanho do CARRINHO DE DELIVERY e centraliza-lo*/
+img.displayed{
+	width: 150px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 28%;
+}
+
+/*Para mexer no BOTÃO "adicionar item"*/
+.botao{
+	margin: 10px;
+	background-color: #2B80E6;
+	border: none;
+	border-radius: 6px;
+	padding: 5px 5px;
+	font-family: Mostra Nuova;
+	color: white;
+}
+
+/*Para MEXER na BORDA do formulário do usuário*/
+.form{
+	text-align: center;
+	border: 2px solid #2B80E6;
+	margin-top: 170px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+/*Formulário do cartão*/
+.form2{
+	text-align: center;
+	border: 2px solid #2B80E6;
+	padding-top: center;
+	padding-bottom: center;
+	margin-top: 190px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+/*Para alterar a POSIÇÃO dos BOTÕES "Voltar" e "Finalizar"*/
+.nav-br_info_botoes{
+	margin: 8px 0 0 432px;
+}
+
+/*Para ALTERAR os BOTÕES: "Voltar" e "Finalizar"*/
+.bot-txt{
+	/*Tamanho da letra*/
+	font-size: 25px;
+	/*Fonte da letra*/
+	font-family: Mostra Nuova;
+	/*Cor da letra*/
+	color: white;
+	/*Espaçamento externo entre os botões*/
+	margin-left: 10px;
+	/*Cor do fundo dos botões*/
+	background-color: #2B80E6;
+	/*Fundo Arredondado*/
+	border-radius: 6px;
+	/*Espaçamento interno do fundo*/
+	padding: 5px 5px;
+}
+
+/*Para alterar a FRASE ACIMA do item adicionado*/
+.adc-ao{
+	margin-left: 230px;
+}
+
+/*Para mexer na borda pontilhada*/
+.iten-adc{
+	padding-left: 320px;
+	border-style: dotted;
+	border-color: #2B80E6;
+	border-radius: 15px;
+	padding-top: 145px;
+	padding-bottom: 145px;
+	margin-top: 140px;
+	margin-left: 28px;
+}
+
+/*Para alinhar o ícone do prato com o nome da comida*/
+.prt{
+	font-family: Mostra Nuova;
+	vertical-align: middle;
+	display: block;
+}
+
+/*Para alterar o tamanho do ícone do parto*/
+.cmd{
+	width: 70px;
+}
+
+/*Para deixar ALINHADO o PRATO/FEIJOADA com o PREÇO*/
+.iten1{
+	display: inline;
+}
+
+
+/*-------------------|DAQUI PARA CIMA, É O MIOLO DA PÁGINA|----------------------*/
+
+/*Para adicionar o fundo verde do "---FORMAS DE PAGAMENTO---"*/
+.form-pag{
+	height:50px;
+	background-color: #248A47;
+	font-family: Mostra Nuova;
+}
