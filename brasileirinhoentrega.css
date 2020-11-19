@@ -1,26 +1,3 @@
-/*Para alterar as palavras "BR ENTREGA" e "FORMAS DE PAGAMENTOS"*/
-.txt{
-	text-transform: uppercase;
-	/*Transforma todo texto em maiúsculo*/
-	text-align: center;
-	/*Para centralizar as palavras na tela*/
-	margin-top: 12.5px;
-	/*Para mexer no espaçamento externo de cima*/
-	color: #FFFFFF;
-	/*Para mudar a cor das palavras*/
-}
-
-/*Para adicionar o fundo amarelo do "---BR ENTREGA---"*/
-.br-entrega{	
-	height:50px;
-	background-color: #F9C411;
-	font-family: Mostra Nuova;
-}
-
-
-
-/*-------------------|DAQUI PARA BAIXO, É O MIOLO DA PÁGINA|----------------------*/
-
 /*Espaço onde será colocado o conteúdo do miolo*/
 .entrega{
 	height: 900px;
@@ -62,6 +39,7 @@
 	width: 28px;
 }
 
+/*Para mexer nos títu*/
 h4{
 	text-align: center;
 	font-size: 25px;
@@ -97,6 +75,7 @@ img.displayed{
 	color: white;
 }
 
+/*BRASILEIRINHO_INFO_ENTREGA*/
 /*Para MEXER na BORDA do formulário do usuário*/
 .form{
 	text-align: center;
@@ -143,6 +122,7 @@ img.displayed{
 /*Para alterar a FRASE ACIMA do item adicionado*/
 .adc-ao{
 	margin-left: 230px;
+	font-family: roboto;
 }
 
 /*Para mexer na borda pontilhada*/
@@ -172,14 +152,4 @@ img.displayed{
 /*Para deixar ALINHADO o PRATO/FEIJOADA com o PREÇO*/
 .iten1{
 	display: inline;
-}
-
-
-/*-------------------|DAQUI PARA CIMA, É O MIOLO DA PÁGINA|----------------------*/
-
-/*Para adicionar o fundo verde do "---FORMAS DE PAGAMENTO---"*/
-.form-pag{
-	height:50px;
-	background-color: #248A47;
-	font-family: Mostra Nuova;
 }

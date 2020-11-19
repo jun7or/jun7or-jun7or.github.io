@@ -11,51 +11,70 @@
 
 <body>
 	<div class="container-fluid">
-		<!--BARRA DE NAVEGAÇÃO-->
+		<!--BARRA DE MENU-->
 		<div class="row">
 			<div class="col-sm menu">
-				<nav class="navbar navbar-expand-lg fixed top">
-					<!--BOTÕES-->
+				<nav class="navbar navbar-expand-lg fixed-top">
+					<!--BOTÕES MENU-->
 					<div class="col-sm-5">
-						<ul  class="nav justify-content-center">
-							<li class="nav-item"><a class="nav-link menu-hover" href="brasileirinho.html">Home</a></li>
-							<li class="nav-item"><a class="nav-link menu-hover" href="brasileirinho.html">Sobre Nós</a></li>
-							<li class="nav-item"><a class="nav-link menu-hover" href="brasileirinhocardapio.html">Cardápio</a></li>
-							<li class="nav-item"><a class="nav-link menu-hover" href="brasileirinhoentrega.html">BR Entrega</a></li>
-							<li class="nav-item"><a class="nav-link menu-hover" href="brasileirinhocontato.html">Contato</a></li>
+						<ul class="nav justify-content-center">
+							<li class="nav-item">
+								<a class="nav-link menu-hover" href="brasileirinho.html">HOME
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link menu-hover" href="brasileirinho.html#rolar">SOBRE NÓS
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link menu-hover" href="cardapiolacarte.html">CARDÁPIO
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link menu-hover" href="brasileirinhoentrega.html">BR ENTREGA
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link menu-hover" href="brasileirinhocontato.html">CONTATO
+								</a>
+							</li>
 						</ul>
 					</div>
-					<!--LOGOTIPO-->	
-					<div class="col-sm-2" ><a class="navbar-brand" href="brasileirinho.html"><img class="logo" src="./Imagens/logo_02.png" alt="Logo do restaurante" class="logo">
+					<!--LOGOTIPO-->
+					<div class="col-sm-2">
+						<a class="navbar-brand" href="brasileirinho.html"><img class="logo" src="Br.img/logo_02.png" alt="logotipo brasileirinho">
+						</a>
 					</div>
 					<div class="col-sm-3"></div>
 					<!--REDES SOCIAIS-->
-					<!--FACEBOOK-->
 					<div class="col-sm-2">
 						<ul class="nav justify-content-center">
-							<li class="nav-item"><a class="nav-link" href="#"><img class="redes" src="./Imagens/logo_insta.png" alt="Logo do Instagram"></a></li>
-							<li class="nav-item"><a class="nav-link" href="https://twitter.com"><img class="redes" src="./Imagens/logo_twitter.png" alt="Logo do Twitter"></a></li>
-							<li class="nav-item"><a class="nav-link" href="#"><img class="redes" src="./Imagens/logo_facebook.png" alt="Logo do Facebook"></a></li>
+							<li class="nav-item">
+								<a class="nav-link" href="https://www.youtube.com/"><img class="redes" src="Br.img/logo_insta.png" alt="ir para o instagram"></a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#"><img class="redes" src="Br.img/logo_twitter.png" alt="ir para o twitter"></a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#"><img class="redes" src="Br.img/logo_facebook.png" alt="ir para o facebook"></a>
+							</li>
 						</ul>
-					</div>
-					<div>
-						
 					</div>
 				</nav>
 			</div>
-		</div>
+		</div>	
 	
-		<!--FAIXA AMARELA COM "BR-ENTREGA" ESCRITO-->
-		<div class="row br-entrega">
-			<div class="col-12 txt">
-				------   br entrega   ------
+		<!--FAIXA CARDÁPIO-->
+		<div class="row">
+			<div class="col-sm faixa">
+			<p class="txt-faixa mx-auto mb-0">BR-ENTREGA</p>
 			</div>
 		</div>
 
 <!---------------------|DAQUI PARA BAIXO, É O MIOLO DA PÁGINA|------------------------>
 
 		<!--ITENS ADICIONADOS-->
-		<div class="row entrega">
+		<main class="row entrega">
 			<div class="col-12">
 				<div class="ja-added">
 				<!--TÍTULO-->
@@ -64,7 +83,7 @@
 						<!--Frase acima do item adicionado-->
 						<li class="prt adc-ao">adicionados ao carrinho</li>
 						<!--PRATO-FEIJOADA-PREÇO-->
-						<li class="prt iten1"><img class="cmd" src="./Imagens/prato.png" 
+						<li class="prt iten1"><img class="cmd" src="./Br.img/prato.png" 
 							alt="Ícone do prato de comida">Feijoada..................................................................................................
 						</li>
 						<li class="prt iten1" id="preco">R$30,00 UNIDADE</li>
@@ -72,29 +91,40 @@
 					</ul>
 				</div>
 			</div>
-		</div>
+		</main>
 
 <!---------------------|DAQUI PARA CIMA, É O MIOLO DA PÁGINA|------------------------>
 
-		<!--FAIXA VERDE COM "FORMAS DE PAGAMENTO" ESCRITO-->
-		<div class="row form-pag">
-			<div class="col-12 txt">
-				------   formas de pagamento   ------
+		<!--FAIXA PAGAMENTO-->
+		<div class="row">
+			<div class="col-sm faixa-pgt">
+			<p class="txt-pgt mx-auto mb-0">FORMAS DE PAGAMENTO</p>
 			</div>
 		</div>
 
-		<hr>
+		<!--LOGO PAGAMENTO-->
+		<div class="row">
+			<div class="col-md col-pgt mx-auto" style="background-image: url('Br.img/fundopgt.png');">
+				<img class="pgt" src="Br.img/visa.png">
+				<img class="pgt" src="Br.img/electron.png">	
+				<img class="pgt" src="Br.img/american.png">
+				<img class="pgt" src="Br.img/elo.png">
+				<img class="pgt" src="Br.img/mastercard.png">
+				<img class="pgt" src="Br.img/maestro.png">	
+				<img class="pgt" src="Br.img/paysafe.png">	
+			</div>			
+		</div>
 
+		<!--RODAPÉ-->
 		<div class="row rodape">
-			<!--RODAPÉ-->	
-			<div class="col-sm-4">
-				<p id="devs">Site feito por:<br>
-					Elizabeth Bisuli<br>
-					Pedro Demercian<br>
-					Reginaldo José dos Santos Junior</p>	
+			<div class="col-sm-4 col-dev">
+				<p class="txt-dev mb-0">Site criado por:<br>
+					Elizabeth Bisuli de Souza<br>
+					Pedro Henrique Demercian Junior<br>
+				Reginaldo José dos Santos Junior</p>
 			</div>
-			<div class="col-sm-4">
-				<p id="ano"> 2020 </p>
+			<div class="col-sm-4 col-ano">
+				<p class="ano txt-ano mx-auto mb-0">2020</p>
 			</div>
 			<div class="col-sm-4"></div>
 		</div>
