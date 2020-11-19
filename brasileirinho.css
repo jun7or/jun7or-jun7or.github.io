@@ -444,10 +444,10 @@ img.displayed{
 /*Para deixar ALINHADO o PRATO/FEIJOADA com o PREÇO*/
 .iten1{
 	display: inline;
-=======
+}
+
 #grid-cdp{
 	background-image: url(Br.img/grid.png);
->>>>>>> dd5e3a13dace952c5103ccf884c00cb098494a46
 }
 
 
