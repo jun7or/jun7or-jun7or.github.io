@@ -221,6 +221,7 @@
 	font-family: roboto;
 	color: grey;
 	font-size: 25px;
+
 }
 
 /*FORMULÁRIO*/
@@ -313,8 +314,8 @@ input[type=submit]{
 	font-family: Roboto;
 	/*Para adicionar e mexer na borda*/
 	border: 2px solid #2B80E6;
-	padding-top: 250px;
-	padding-bottom: 200px;
+	padding-top: 120px;
+	padding-bottom: 120px;
 	margin-top: 100px;
 	margin-left: 25px;
 }
@@ -324,6 +325,10 @@ input[type=submit]{
 	vertical-align: middle;
 	/*Para tirar a marcação da lista*/
 	display: block;
+}
+.tel2{
+	display: inline-block;
+	/*margin-left: 250px;*/
 }
 
 /*Para alterar o tamanho dos ícones*/
@@ -344,7 +349,14 @@ h4{
 /*Para mexer no fundo do TÍTULO*/
 .br-tit{
 	background-color: #41AB6F;
-	margin-top: 15.65%;
+	margin-top: 5%;
+	height: 40px;
+	width: 400px;
+}
+
+.br-tit2{
+	background-color: #41AB6F;
+	margin-top: 15.50%;
 	height: 40px;
 }
 /*Para alterar o tamanho do CARRINHO DE DELIVERY e centraliza-lo*/
@@ -353,7 +365,11 @@ img.displayed{
 	display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 28%;
+    margin-top: 15%;
+}
+
+.qb{
+	height: 120px;
 }
 
 /*Para mexer no BOTÃO "adicionar item"*/
@@ -362,9 +378,17 @@ img.displayed{
 	background-color: #2B80E6;
 	border: none;
 	border-radius: 6px;
+	/*Fundo do botão*/
 	padding: 5px 5px;
-	font-family: Mostra Nuova;
+	font-family: roboto;
 	color: white;
+}
+
+.b-pagar{
+	border: solid 1px #2b80e6;
+	background-color: #2b80e6;
+	color: #fff;
+	pointer-events: none;
 }
 
 /*BRASILEIRINHO_INFO_ENTREGA*/
@@ -413,20 +437,24 @@ img.displayed{
 
 /*Para alterar a FRASE ACIMA do item adicionado*/
 .adc-ao{
-	margin-left: 230px;
+	margin-left: 170px;
 	font-family: roboto;
+	padding-bottom: 150px;
+	color: #2B80E6;
+	font-size: 23px;
 }
 
 /*Para mexer na borda pontilhada*/
 .iten-adc{
-	padding-left: 320px;
-	border-style: dotted;
+	padding-left: 280px;
+	border-style: dashed;
 	border-color: #2B80E6;
-	border-radius: 15px;
-	padding-top: 145px;
+	border-radius: 10px;
+	padding-top: 30px;
 	padding-bottom: 145px;
-	margin-top: 140px;
-	margin-left: 28px;
+	margin-top: 75px;
+	margin-right: 55px;
+	margin-left: 55px;
 }
 
 /*Para alinhar o ícone do prato com o nome da comida*/
