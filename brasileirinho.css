@@ -181,7 +181,6 @@
 
 .card:hover a{
 	background-color: #abc;
-	text-transform: lowercase;
 }
 
 .card-img-top{
