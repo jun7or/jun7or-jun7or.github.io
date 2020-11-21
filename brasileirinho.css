@@ -250,6 +250,7 @@
 	font-family: roboto;
 	color: grey;
 	font-size: 25px;
+
 }
 
 /*FORMULÁRIO*/
@@ -317,12 +318,48 @@ input[type=submit]{
   content: "→";
 }
 
-<<<<<<< HEAD
-/*PÁGINAS BR-ENTREGA*/
+#adc_iten{
+	border: solid 1px #2b80e6;
+	background-color: #2b80e6;
+	color: #fff;
+	/*pointer-events: none;*/
+}
+
+/*ESTILOS BR-ENTREGA*/
 /*Espaço onde será colocado o conteúdo do miolo*/
 .entrega{
 	height: 900px;
 	background-color: none;
+}
+
+#bt-azul{
+	display: inline-block;
+    font-weight: 400;
+    text-align: center;   
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid #2b80e6;
+    padding: .75rem 1.5rem;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    border-radius: 1rem;
+    color: #fff;
+    background-color: #2b80e6;
+}
+
+#bt-azul:hover{
+	border: 1px solid #2b80e6;
+	background-color: #ffffff;
+	color: #2b80e6;
+	text-decoration: none;
+}
+
+.qb{
+	height: 655px;
+}
+
+.qb_adc{
+	height: 790px;
 }
 
 /*Para mexer nos textos das DUAS COLUNAS*/
@@ -342,17 +379,24 @@ input[type=submit]{
 	font-family: Roboto;
 	/*Para adicionar e mexer na borda*/
 	border: 2px solid #2B80E6;
-	padding-top: 250px;
-	padding-bottom: 200px;
+	padding-top: 120px;
+	padding-bottom: 120px;
 	margin-top: 100px;
 	margin-left: 25px;
+	margin-right: 25px;
+}
+.lado-esq{
+	padding-inline-start: 0;
 }
 
 /*Para alinhar os ícones de telefone com os números*/
 .tel{
-	vertical-align: middle;
+/*	vertical-align: middle;*/
 	/*Para tirar a marcação da lista*/
 	display: block;
+}
+.tel2{
+	display: inline-block;
 }
 
 /*Para alterar o tamanho dos ícones*/
@@ -360,7 +404,7 @@ input[type=submit]{
 	width: 28px;
 }
 
-/*Para mexer nos títu*/
+/*Para mexer nos títulos*/
 h4{
 	text-align: center;
 	font-size: 25px;
@@ -369,31 +413,55 @@ h4{
 	padding-top: 5px;
 }
 
-/*LADO DIREITO*/
-/*Para mexer no fundo do TÍTULO*/
+/*TÍTULOS SEPARADOS*/
 .br-tit{
 	background-color: #41AB6F;
-	margin-top: 15.65%;
+	margin-top: 14.25%;
 	height: 40px;
 }
+
+.br-tit2{
+	background-color: #41AB6F;
+	margin-top: 5%;
+	height: 40px;
+	width: 400px;
+}
+
+.br-tit3{
+	background-color: #41AB6F;
+	margin-top: 15%;
+	height: 40px;
+	width: 400px;
+
+}
+
+/*LADO DIREITO*/
 /*Para alterar o tamanho do CARRINHO DE DELIVERY e centraliza-lo*/
 img.displayed{
 	width: 150px;
 	display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 28%;
+    margin-top: 15%;
 }
 
 /*Para mexer no BOTÃO "adicionar item"*/
 .botao{
+	font-family: roboto;
+	font-size: 20px;
 	margin: 10px;
 	background-color: #2B80E6;
-	border: none;
 	border-radius: 6px;
-	padding: 5px 5px;
-	font-family: Mostra Nuova;
+	/*Fundo do botão*/
+	padding: 10px 10px;
 	color: white;
+}
+
+.b-pagar{
+	border: solid 1px #2b80e6;
+	background-color: #2b80e6;
+	color: #fff;
+	pointer-events: none;
 }
 
 /*BRASILEIRINHO_INFO_ENTREGA*/
@@ -401,7 +469,7 @@ img.displayed{
 .form{
 	text-align: center;
 	border: 2px solid #2B80E6;
-	margin-top: 170px;
+	margin-top: 100px;
 	margin-left: 20px;
 	margin-right: 20px;
 }
@@ -412,50 +480,80 @@ img.displayed{
 	border: 2px solid #2B80E6;
 	padding-top: center;
 	padding-bottom: center;
-	margin-top: 190px;
+	margin-top: 100px;
 	margin-left: 20px;
 	margin-right: 20px;
 }
 
 /*Para alterar a POSIÇÃO dos BOTÕES "Voltar" e "Finalizar"*/
 .nav-br_info_botoes{
-	margin: 8px 0 0 432px;
+	margin: 8px 0 0 400px;
+	/*top, right, bottom, left*/
 }
 
 /*Para ALTERAR os BOTÕES: "Voltar" e "Finalizar"*/
-.bot-txt{
+li .bot-txt{
 	/*Tamanho da letra*/
-	font-size: 25px;
+	font-size: 20px;
 	/*Fonte da letra*/
 	font-family: Mostra Nuova;
 	/*Cor da letra*/
 	color: white;
 	/*Espaçamento externo entre os botões*/
-	margin-left: 10px;
+	margin-left: 15px;
 	/*Cor do fundo dos botões*/
 	background-color: #2B80E6;
 	/*Fundo Arredondado*/
 	border-radius: 6px;
 	/*Espaçamento interno do fundo*/
-	padding: 5px 5px;
+	padding: 10px 10px;
+	
 }
 
+#bt3-azul{
+	display: inline-block;
+    font-weight: 400;
+    text-align: center;   
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid #2b80e6;
+    padding: .75rem 1.5rem;
+    margin-left: -20px;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    border-radius: 1rem;
+    color: #fff;
+    background-color: #2b80e6;
+}
+
+#bt3-azul:hover{
+	border: 1px solid #2b80e6;
+	background-color: #ffffff;
+	color: #2b80e6;
+	text-decoration: none;
+}
+
+/*CARRINHO DE COMPRAS*/
 /*Para alterar a FRASE ACIMA do item adicionado*/
 .adc-ao{
-	margin-left: 230px;
+	margin-left: 170px;
 	font-family: roboto;
+	padding-bottom: 150px;
+	color: #2B80E6;
+	font-size: 23px;
 }
 
 /*Para mexer na borda pontilhada*/
 .iten-adc{
-	padding-left: 320px;
-	border-style: dotted;
+	padding-left: 280px;
+	border-style: dashed;
 	border-color: #2B80E6;
-	border-radius: 15px;
-	padding-top: 145px;
+	border-radius: 10px;
+	padding-top: 30px;
 	padding-bottom: 145px;
-	margin-top: 140px;
-	margin-left: 28px;
+	margin-top: 75px;
+	margin-right: 55px;
+	margin-left: 55px;
 }
 
 /*Para alinhar o ícone do prato com o nome da comida*/
@@ -475,11 +573,63 @@ img.displayed{
 	display: inline;
 }
 
+.nav-etr{
+	text-align: center;
+	margin-left: 1180px;
+}
+
+#compra-paga{
+	text-align: center;
+	font-size: 25px;
+	font-family: Roboto;
+	color: #41AB6F;
+	border: 2px solid #2B80E6;
+	width: 400px;
+	margin-top: 200px;
+}
+
+#bt2-azul{
+	display: inline-block;
+    font-weight: 400;
+    text-align: center;   
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid #2b80e6;
+    padding: .75rem 1.5rem;
+    margin-left: -20px;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    border-radius: 1rem;
+    color: #fff;
+    background-color: #2b80e6;
+}
+
+#bt2-azul:hover{
+	border: 1px solid #2b80e6;
+	background-color: #ffffff;
+	color: #2b80e6;
+	text-decoration: none;
+}
+
 #grid-cdp{
 	background-image: url(Br.img/grid.png);
 }
 
+.qb3{
+	height: 325px;
+}
+
+<<<<<<< HEAD
 
 
 
-
+=======
+.faixapg{
+	height: 60px;
+	background-color: #f9c411;
+	font-family: mostra nuova;
+	font-weight: 50px;
+	color: #fff;
+	display: flex;
+}
+>>>>>>> 490ed6454cb792a51346a4efa8c046d481a48901
