@@ -175,11 +175,40 @@
 
 /*CARDS*/
 .card{
+	text-align: center;
 	margin-bottom: 30px;
+}
+
+.card:hover a{
+	background-color: #abc;
+	text-transform: lowercase;
 }
 
 .card-img-top{
 	height: 200px;
+}
+
+.card-title{
+	font-family: mostra nuova;
+	font-weight: 450;
+}
+
+.card-text{
+	font-family: mostra nuova;
+}
+
+/*BOTÃO CARRINHO*/
+.btn-carrinho{
+	font-family: mostra nuova;
+	background-color: #fff;
+	color: #505050;
+	padding: 6	12	6	12;
+	border-radius: 100px;
+	border: 1px solid #248a47;
+}
+
+.btn-carrinho:hover{
+	text-decoration: none;
 }
 
 .col-pgt{
@@ -449,5 +478,8 @@ img.displayed{
 #grid-cdp{
 	background-image: url(Br.img/grid.png);
 }
+
+
+
 
 
