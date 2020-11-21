@@ -289,12 +289,19 @@ input[type=submit]{
   content: "→";
 }
 
-<<<<<<< HEAD
-/*PÁGINAS BR-ENTREGA*/
+/*ESTILOS BR-ENTREGA*/
 /*Espaço onde será colocado o conteúdo do miolo*/
 .entrega{
 	height: 900px;
 	background-color: none;
+}
+
+.qb{
+	height: 655px;
+}
+
+.qb_adc{
+	height: 790px;
 }
 
 /*Para mexer nos textos das DUAS COLUNAS*/
@@ -328,7 +335,6 @@ input[type=submit]{
 }
 .tel2{
 	display: inline-block;
-	/*margin-left: 250px;*/
 }
 
 /*Para alterar o tamanho dos ícones*/
@@ -336,7 +342,7 @@ input[type=submit]{
 	width: 28px;
 }
 
-/*Para mexer nos títu*/
+/*Para mexer nos títulos*/
 h4{
 	text-align: center;
 	font-size: 25px;
@@ -345,20 +351,27 @@ h4{
 	padding-top: 5px;
 }
 
-/*LADO DIREITO*/
-/*Para mexer no fundo do TÍTULO*/
+/*TÍTULOS SEPARADOS*/
 .br-tit{
+	background-color: #41AB6F;
+	margin-top: 15.50%;
+	height: 40px;
+}
+
+.br-tit2{
 	background-color: #41AB6F;
 	margin-top: 5%;
 	height: 40px;
 	width: 400px;
 }
 
-.br-tit2{
+.br-tit3{
 	background-color: #41AB6F;
-	margin-top: 15.50%;
+	margin-top: 5%;
 	height: 40px;
 }
+
+/*LADO DIREITO*/
 /*Para alterar o tamanho do CARRINHO DE DELIVERY e centraliza-lo*/
 img.displayed{
 	width: 150px;
@@ -368,19 +381,15 @@ img.displayed{
     margin-top: 15%;
 }
 
-.qb{
-	height: 120px;
-}
-
 /*Para mexer no BOTÃO "adicionar item"*/
 .botao{
+	font-family: roboto;
+	font-size: 20px;
 	margin: 10px;
 	background-color: #2B80E6;
-	border: none;
 	border-radius: 6px;
 	/*Fundo do botão*/
-	padding: 5px 5px;
-	font-family: roboto;
+	padding: 10px 10px;
 	color: white;
 }
 
@@ -418,23 +427,25 @@ img.displayed{
 }
 
 /*Para ALTERAR os BOTÕES: "Voltar" e "Finalizar"*/
-.bot-txt{
+li .bot-txt{
 	/*Tamanho da letra*/
-	font-size: 25px;
+	font-size: 20px;
 	/*Fonte da letra*/
 	font-family: Mostra Nuova;
 	/*Cor da letra*/
 	color: white;
 	/*Espaçamento externo entre os botões*/
-	margin-left: 10px;
+	margin-left: 15px;
 	/*Cor do fundo dos botões*/
 	background-color: #2B80E6;
 	/*Fundo Arredondado*/
 	border-radius: 6px;
 	/*Espaçamento interno do fundo*/
-	padding: 5px 5px;
+	padding: 10px 10px;
+	
 }
 
+/*CARRINHO DE COMPRAS*/
 /*Para alterar a FRASE ACIMA do item adicionado*/
 .adc-ao{
 	margin-left: 170px;
@@ -472,6 +483,21 @@ img.displayed{
 /*Para deixar ALINHADO o PRATO/FEIJOADA com o PREÇO*/
 .iten1{
 	display: inline;
+}
+
+.nav-etr{
+	text-align: center;
+	margin-left: 1180px;
+}
+
+#compra-paga{
+	text-align: center;
+	font-size: 25px;
+	font-family: Roboto;
+	color: #41AB6F;
+	border: 2px solid #2B80E6;
+	width: 400px;
+	margin-top: 327.5px;
 }
 
 #grid-cdp{
