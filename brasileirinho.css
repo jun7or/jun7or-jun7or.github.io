@@ -179,10 +179,6 @@
 	margin-bottom: 30px;
 }
 
-.card:hover a{
-	background-color: #abc;
-}
-
 .card-img-top{
 	height: 200px;
 }
@@ -311,10 +307,6 @@ input[type=submit]{
 
 .pg-cdp{
 	padding-bottom: 50px;
-}
-
-.qq::after {
-  content: "→";
 }
 
 #adc_iten{
@@ -618,11 +610,12 @@ li .bot-txt{
 	height: 325px;
 }
 
-<<<<<<< HEAD
+html{
+	scroll-behavior: smooth;
+}
 
 
 
-=======
 .faixapg{
 	height: 60px;
 	background-color: #f9c411;
@@ -631,4 +624,4 @@ li .bot-txt{
 	color: #fff;
 	display: flex;
 }
->>>>>>> 490ed6454cb792a51346a4efa8c046d481a48901
+
