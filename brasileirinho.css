@@ -60,6 +60,35 @@
 	justify-content: center;
 }
 
+/*.tracinho{
+	background-color: white;
+	border-radius: 5px;
+	border-color: white;
+	height: 10px;
+}*/
+
+.cor-amarelo{
+	background-color: #f9c411;
+}
+
+.tracinho_esq{
+	position: absolute;
+	right: -250px;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+}
+
+.tracinho_dir{
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	left: -250px;
+	margin: auto;
+}
+
 /*ESTILOS HOME*/
 /*CARROSSEL*/
 .carousel-item{
