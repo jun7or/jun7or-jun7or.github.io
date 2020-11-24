@@ -1,5 +1,21 @@
 /*ESTILOS COMUNS*/
 /*BARRA MENU*/
+@font-face{​​​​​​​
+ 
+
+font-family: "MostraNuova";
+src: url("Fontes/MostraNuova/MostraNuova.otf");
+ 
+}​​​​​​​
+
+@font-face{​​​​​​​
+ 
+
+font-family: "Roboto";
+src: url("Fontes/Roboto/Roboto-Regular.otf");
+ 
+}​​​​​​​
+
 .menu{
 	height: 120px;
 }
@@ -8,7 +24,7 @@
 .navbar{
 	height: 120px;
 	background-color: #fff;
-	font-family: mostra nuova;
+	font-family: 'MostraNuova';
 }
 
 /*COR BOTÃO MENU*/
@@ -46,7 +62,7 @@
 .faixa{
 	height: 60px;
 	background-color: #f9c411;
-	font-family: mostra nuova;
+	font-family: 'MostraNuova';
 	font-weight: 50px;
 	color: #fff;
 	display: flex;
@@ -96,7 +112,7 @@
 
 /*TEXTO SOBRE NÓS*/
 .texto-nos{
-	font-family: roboto;
+	font-family: 'Roboto';
 	margin: 100px;
 	text-align: justify;
 	background-color: #f9c411;
@@ -124,7 +140,7 @@
 	height: 70px;
 	background-color: #248a47;
 	color: #fff;
-	font-family: roboto;
+	font-family: 'Roboto';
 }
 
 /*COLUNA 2020*/
@@ -135,7 +151,7 @@
 
 /*TEXTO 2020*/
 .txt-ano{
-	font-family: roboto;
+	font-family: 'Roboto';
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -149,7 +165,7 @@
 
 /*TEXTO DEVS*/
 .txt-dev{
-	font-family: roboto;
+	font-family: 'Roboto';
 	margin-left: 20px;
 	display: flex;
 	flex-direction: column;
@@ -206,17 +222,17 @@
 }
 
 .card-title{
-	font-family: mostra nuova;
+	font-family: 'MostraNuova';
 	font-weight: 450;
 }
 
 .card-text{
-	font-family: mostra nuova;
+	font-family: 'MostraNuova';
 }
 
 /*BOTÃO CARRINHO*/
 .btn-carrinho{
-	font-family: mostra nuova;
+	font-family: 'MostraNuova';
 	background-color: #fff;
 	color: #505050;
 	padding: 6	12	6	12;
@@ -248,7 +264,7 @@
 .faixa-pgt{
 	height: 60px;
 	background-color: #248a47;
-	font-family: mostra nuova;
+	font-family: 'MostraNuova';
 	color: #fff;
 	display: flex;
 }
@@ -264,7 +280,7 @@
 /*NÚMEROS PARA CONTATOS*/
 #telefone{
 	text-align: center;
-	font-family: roboto;
+	font-family: 'Roboto';
 	color: grey;
 	font-size: 25px;
 
@@ -322,7 +338,7 @@ input[type=submit]{
 	border-radius: 6px;
 	padding: 7px 34px;
 	cursor: pointer;
-	font-family: mostra nuova;
+	font-family: 'MostraNuova';
 	color: white;
 	font-size: 20px;
 }
@@ -379,7 +395,7 @@ input[type=submit]{
 .br-txt{
 	text-align: center;
 	font-size: 25px;
-	font-family: Roboto;
+	font-family: 'Roboto';
 	color: #41AB6F;
 }
 
@@ -389,7 +405,7 @@ input[type=submit]{
 	/*Para mexer nos números*/
 	text-align: center;
 	font-size: 25px;
-	font-family: Roboto;
+	font-family: 'Roboto';
 	/*Para adicionar e mexer na borda*/
 	border: 2px solid #2B80E6;
 	padding-top: 120px;
@@ -421,7 +437,7 @@ input[type=submit]{
 h4{
 	text-align: center;
 	font-size: 25px;
-	font-family: Mostra Nuova;
+	font-family: 'MostraNuova';
 	color: #FFFFFF;
 	padding-top: 5px;
 }
@@ -460,7 +476,7 @@ img.displayed{
 
 /*Para mexer no BOTÃO "adicionar item"*/
 .botao{
-	font-family: roboto;
+	font-family: 'Roboto';
 	font-size: 20px;
 	margin: 10px;
 	background-color: #2B80E6;
@@ -509,7 +525,7 @@ li .bot-txt{
 	/*Tamanho da letra*/
 	font-size: 20px;
 	/*Fonte da letra*/
-	font-family: Mostra Nuova;
+	font-family: 'MostraNuova';
 	/*Cor da letra*/
 	color: white;
 	/*Espaçamento externo entre os botões*/
@@ -550,7 +566,7 @@ li .bot-txt{
 /*Para alterar a FRASE ACIMA do item adicionado*/
 .adc-ao{
 	margin-left: 170px;
-	font-family: roboto;
+	font-family: 'Roboto';
 	padding-bottom: 150px;
 	color: #2B80E6;
 	font-size: 23px;
@@ -571,7 +587,7 @@ li .bot-txt{
 
 /*Para alinhar o ícone do prato com o nome da comida*/
 .prt{
-	font-family: Mostra Nuova;
+	font-family: 'MostraNuova';
 	vertical-align: middle;
 	display: block;
 }
@@ -594,7 +610,7 @@ li .bot-txt{
 #compra-paga{
 	text-align: center;
 	font-size: 25px;
-	font-family: Roboto;
+	font-family: 'Roboto';
 	color: #41AB6F;
 	border: 2px solid #2B80E6;
 	width: 400px;
@@ -641,7 +657,7 @@ html{
 .faixapg{
 	height: 60px;
 	background-color: #f9c411;
-	font-family: mostra nuova;
+	font-family: 'MostraNuova';
 	font-weight: 50px;
 	color: #fff;
 	display: flex;
