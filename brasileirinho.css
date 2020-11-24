@@ -241,6 +241,7 @@ src: url("Fontes/Roboto/Roboto-Regular.otf");
     box-sizing: border-box;
     cursor: pointer;
     transition: all 150ms ease;
+}
 .btn-carrinho{
 	font-family: 'MostraNuova';
 	background-color: #fff;
