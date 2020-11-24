@@ -121,7 +121,7 @@
 
 /*RODAPÉ*/
 .rodape{
-	height: 120px;
+	height: 70px;
 	background-color: #248a47;
 	color: #fff;
 	font-family: roboto;
@@ -143,7 +143,7 @@
 
 /*COLUNA DEVS*/
 .col-dev{
-	height: 120px;
+	height: 20px;
 	display: flex;
 }
 
