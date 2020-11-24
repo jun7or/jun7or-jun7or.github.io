@@ -1,20 +1,19 @@
 /*ESTILOS COMUNS*/
 /*BARRA MENU*/
-@font-face{​​​​​​​
- 
+
+@font-face{
 
 font-family: "MostraNuova";
 src: url("Fontes/MostraNuova/MostraNuova.otf");
- 
-}​​​​​​​
 
-@font-face{​​​​​​​
- 
+}
+
+@font-face{
 
 font-family: "Roboto";
 src: url("Fontes/Roboto/Roboto-Regular.otf");
- 
-}​​​​​​​
+
+}
 
 .menu{
 	height: 120px;
