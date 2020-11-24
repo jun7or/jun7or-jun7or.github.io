@@ -230,7 +230,6 @@ src: url("Fontes/Roboto/Roboto-Regular.otf");
 }
 
 /*BOTÃO CARRINHO*/
-<<<<<<< HEAD
 .efeito{
 	font-family: mostra nuova;
     border-color: #248a47;
@@ -242,7 +241,6 @@ src: url("Fontes/Roboto/Roboto-Regular.otf");
     box-sizing: border-box;
     cursor: pointer;
     transition: all 150ms ease;
-=======
 .btn-carrinho{
 	font-family: 'MostraNuova';
 	background-color: #fff;
@@ -250,7 +248,6 @@ src: url("Fontes/Roboto/Roboto-Regular.otf");
 	padding: 6	12	6	12;
 	border-radius: 100px;
 	border: 1px solid #248a47;
->>>>>>> 45ef597a92402d7e05645839e0da2e87e36cef53
 }
 
 .btn-carrinho{
