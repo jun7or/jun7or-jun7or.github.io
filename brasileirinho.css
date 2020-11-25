@@ -342,7 +342,7 @@ input[id=Observacoes]{
 }
 
 input[type=email]{
-	width: 98%;
+	width: 48%;
 	padding: 5px;
 	margin: 8px 8px 10px 8px;
 	border-radius: 8px;
@@ -350,19 +350,24 @@ input[type=email]{
 }
 
 input[type=telefone]{
-	width: 98%;
+	width: 48.8%;
 	padding: 5px;
-	margin: 8px 8px 10px 8px;
+	/*margin: 8px 8px 10px 8px;*/
 	border-radius: 8px;
 	border-color: lightgrey;
 }
 
 input[type=date]{
-	width: 98%;
+	width: 48%;
 	padding: 5px;
 	margin: 8px 8px 10px 8px;
 	border-radius: 8px;
 	border-color: lightgrey;
+	color: grey;
+}
+
+label[for=Idade]{
+	padding-left: 15px;
 	color: grey;
 }
 
@@ -376,6 +381,29 @@ input[type=submit]{
 	font-family: 'MostraNuova';
 	color: white;
 	font-size: 20px;
+}
+
+input[type=radio]{
+	margin-left: 130px;
+	color: grey;
+}
+
+label[for=genero]{
+	padding-left: 18px;
+	color: grey;
+}
+
+label[for=Pais]{
+	padding-left: 18px;
+	color: grey;
+}
+
+select, option{
+	color: grey;
+	width: 66%;
+	margin: 5px;
+	padding: 5px;
+
 }
 
 .pg-cdp{
@@ -595,6 +623,15 @@ li .bot-txt{
 	background-color: #ffffff;
 	color: #2b80e6;
 	text-decoration: none;
+}
+
+.finalizar{
+	width: 21%;
+	margin: 10px 0;
+}
+
+.voltarinfo{
+	margin: 100px 0;
 }
 
 /*CARRINHO DE COMPRAS*/
