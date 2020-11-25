@@ -597,6 +597,15 @@ li .bot-txt{
 	text-decoration: none;
 }
 
+.finalizar{
+	width: 21%;
+	margin: 10px 0;
+}
+
+.voltarinfo{
+	margin: 100px 0;
+}
+
 /*CARRINHO DE COMPRAS*/
 /*Para alterar a FRASE ACIMA do item adicionado*/
 .adc-ao{
