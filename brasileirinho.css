@@ -105,13 +105,10 @@ src: url("Fontes/Roboto/Roboto-Regular.otf");
 }
 
 .faixa-res{
-<<<<<<< Updated upstream
 	border-top: 2px solid #fff;
 	border-bottom: 2px solid #fff;
-=======
 	margin-top: 2px #fff;
 	margin-bottom: 2px #fff;
->>>>>>> Stashed changes
 	height: 120px;
 	background-color: #f9c411;
 
@@ -126,11 +123,7 @@ src: url("Fontes/Roboto/Roboto-Regular.otf");
 .res-txt{
 	display: flex;
 	text-align: center;
-<<<<<<< Updated upstream
 	flex-direction: column;
-=======
->>>>>>> Stashed changes
-}
 
 .reservahome{
 	font-family: 'MostraNuova';
@@ -141,8 +134,6 @@ src: url("Fontes/Roboto/Roboto-Regular.otf");
 	justify-content: center;
 }
 
-<<<<<<< Updated upstream
-=======
 .res-btn{
 	
 }
