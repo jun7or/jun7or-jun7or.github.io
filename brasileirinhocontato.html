@@ -100,38 +100,31 @@
 		<!--FORMULÁRIO-->
 		<div id="form">
 			<form style="margin-bottom: -28px">
-				<input type="text" id="Nome" name="Nome_Completo" placeholder="Nome Completo do responsável*" required><br>
+				<input type="text" id="Nome" name="Nome_Completo" placeholder="Nome completo do responsável*" required><br>
 				<input type="Email" id="Email" name="Email" placeholder="E-mail*" required>
 				<input type="Telefone" id="Telefone" name="Telefone" placeholder="Telefone*" pattern="[0-9]{11} or [0-9]{10}" required><br>
 				<input type="date" id="date" name="Data" placeholder="Data da Reserva*" required>
 				
 				<label for="Idade">Numero de Pessoas para a Reserva*</label>
 				<input type="number" id="idade" name="idade" min="1" max="8"><br><br>
-				
-				<label for="genero">Selecione um horário para sua reserva - Almoço:</label><br>
-				<input type="radio" id="homem" name="genero" value="homem">
-				<label for="homem">11:30</label>
-				<input type="radio" id="mulher" name="genero" value="mulher">
-				<label for="mulher">12:00</label>
-				<input type="radio" id="htrans" name="genero" value="htrans">
-				<label for="htrans">13:30</label>
-				<input type="radio" id="mtrans" name="genero" value="mtrans">
-				<label for="mtrans">14:00</label>
-				<input type="radio" id="mtrans" name="genero" value="mtrans">
-				<label for="mtrans">15:00</label><br><br>
-
-				<label for="genero">Selecione um horário para sua reserva - Jantar:</label><br>
-				<input type="radio" id="homem" name="genero" value="homem">
-				<label for="homem">18:00</label>
-				<input type="radio" id="mulher" name="genero" value="mulher">
-				<label for="mulher">19:30</label>
-				<input type="radio" id="htrans" name="genero" value="htrans">
-				<label for="htrans">20:00</label>
-				<input type="radio" id="mtrans" name="genero" value="mtrans">
-				<label for="mtrans">21:00</label>
-				<input type="radio" id="mtrans" name="genero" value="mtrans">
-				<label for="mtrans">22:30</label><br><br>
-
+                <div class="row">
+    				<div class="col-6 almoco">
+        				<label for="genero">Selecione um horário para sua reserva - Almoço:</label><br>
+        				<input type="radio" name="hrrio" value="11:30">
+                        <input type="radio" name="hrrio" value="12:00">
+                        <input type="radio" name="hrrio" value="12:30">
+                        <input type="radio" name="hrrio" value="16:00">
+                        <input type="radio" name="hrrio" value="16:30">
+                    </div>
+                    <div class="col-6 jantar">
+        				<label for="genero">Selecione um horário para sua reserva - Jantar:</label><br>
+        				<input type="radio" name="hrrio" value="17:00">
+                        <input type="radio" name="hrrio" value="17:30">
+                        <input type="radio" name="hrrio" value="18:00">
+                        <input type="radio" name="hrrio" value="18:30">
+                        <input type="radio" name="hrrio" value="19:00">
+                    </div>
+                </div>    
 				<input type="text" id="Observacoes" name="Observacoes" placeholder="Observacoes*"><br><br>
 					
 				<input type="submit" value="Enviar">
