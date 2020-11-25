@@ -147,7 +147,6 @@ src: url("Fontes/Roboto/Roboto-Regular.otf");
 	
 }
 
->>>>>>> Stashed changes
 .btn-res{
 	display: inline-block;
     font-weight: 400;
@@ -162,11 +161,7 @@ src: url("Fontes/Roboto/Roboto-Regular.otf");
     color: #505050;
     background-color: #f9c411;
 }
-<<<<<<< Updated upstream
-=======
 
-
->>>>>>> Stashed changes
 /* COLUNA TEXTO SOBRE NÓS*/
 #txt-nos{
 	height: 500px;
@@ -436,11 +431,10 @@ input[type=date]{
 	color: grey;
 }
 
-<<<<<<< Updated upstream
 label[for=Idade]{
 	padding-left: 15px;
 	color: grey;
-=======
+}
 /*ESTILO HORARIO RESERVA*/
 .str-hr{
 	margin: none; 
@@ -490,7 +484,6 @@ input[type="radio"]:hover::after{
 input[type="radio"]:checked::after{
 	background-color: #2b80e6;
 	color: #fff;
->>>>>>> Stashed changes
 }
 
 input[type=submit]{
