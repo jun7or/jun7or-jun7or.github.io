@@ -105,8 +105,8 @@ src: url("Fontes/Roboto/Roboto-Regular.otf");
 }
 
 .faixa-res{
-	margin-top: 2px #fff;
-	margin-bottom: 2px #fff;
+	border-top: 2px solid #fff;
+	border-bottom: 2px solid #fff;
 	height: 120px;
 	background-color: #f9c411;
 
@@ -121,6 +121,7 @@ src: url("Fontes/Roboto/Roboto-Regular.otf");
 .res-txt{
 	display: flex;
 	text-align: center;
+	flex-direction: column;
 }
 
 .reservahome{
@@ -268,8 +269,15 @@ src: url("Fontes/Roboto/Roboto-Regular.otf");
 	font-weight: 450;
 }
 
+.card:hover .card-body{
+	background-color: #fbfbfb;
+	
+
+}
+
 .card-text{
 	font-family: 'MostraNuova';
+	margin-bottom: 0px;
 }
 
 /*BOTÃO CARRINHO*/
@@ -426,9 +434,14 @@ input[type=submit]{
 }
 
 /*ESTILO HORARIO RESERVA*/
+.horario{
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
 .almoco{
 	padding: 10px;
-	margin: 0px 0px 0px 8px;
+	margin: 0px 8px 10px 8px;
 	border-top: 2px solid grey;
 	border-left: 2px solid grey;
 	border-bottom: 2px solid lightgrey;
@@ -452,7 +465,8 @@ input[type="radio"]{
 	font-family: 'MostraNuova';
 	width: 50px;
 	height: 25px;
-	margin-left: 15px;
+	margin-left: 45px;
+	
 }
 
 input[type="radio"]::after{
