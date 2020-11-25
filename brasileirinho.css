@@ -105,8 +105,13 @@ src: url("Fontes/Roboto/Roboto-Regular.otf");
 }
 
 .faixa-res{
+<<<<<<< Updated upstream
 	border-top: 2px solid #fff;
 	border-bottom: 2px solid #fff;
+=======
+	margin-top: 2px #fff;
+	margin-bottom: 2px #fff;
+>>>>>>> Stashed changes
 	height: 120px;
 	background-color: #f9c411;
 
@@ -121,7 +126,10 @@ src: url("Fontes/Roboto/Roboto-Regular.otf");
 .res-txt{
 	display: flex;
 	text-align: center;
+<<<<<<< Updated upstream
 	flex-direction: column;
+=======
+>>>>>>> Stashed changes
 }
 
 .reservahome{
@@ -133,6 +141,13 @@ src: url("Fontes/Roboto/Roboto-Regular.otf");
 	justify-content: center;
 }
 
+<<<<<<< Updated upstream
+=======
+.res-btn{
+	
+}
+
+>>>>>>> Stashed changes
 .btn-res{
 	display: inline-block;
     font-weight: 400;
@@ -147,6 +162,11 @@ src: url("Fontes/Roboto/Roboto-Regular.otf");
     color: #505050;
     background-color: #f9c411;
 }
+<<<<<<< Updated upstream
+=======
+
+
+>>>>>>> Stashed changes
 /* COLUNA TEXTO SOBRE NÓS*/
 #txt-nos{
 	height: 500px;
@@ -416,9 +436,61 @@ input[type=date]{
 	color: grey;
 }
 
+<<<<<<< Updated upstream
 label[for=Idade]{
 	padding-left: 15px;
 	color: grey;
+=======
+/*ESTILO HORARIO RESERVA*/
+.str-hr{
+	margin: none; 
+}
+
+.horario{
+	font-family: 'MostraNuova'
+}
+
+.almoco{
+	border: 2px solid lightgrey;
+	border-radius: 8px;
+}
+
+.jantar{
+	border: 2px solid lightgrey;
+	border-radius: 8px;
+}
+
+input[type="radio"]{
+	margin-left: 10px;
+	font-family: 'MostraNuova';
+	width: 50px;
+	height: 25px;
+}
+
+input[type="radio"]::after{
+	width: 50px;
+	height: 30px;
+	border-radius: 100px;
+	border: 1px solid #2b80e6;
+	box-sizing: border-box;
+	background-color: #fff;
+	content: attr(value);
+	display: block;
+	text-align: center;
+	line-height: 30px;
+	color: #505050;
+	cursor: pointer;
+}
+
+input[type="radio"]:hover::after{
+	background-color: #efffff;
+	color: #505050;
+}
+
+input[type="radio"]:checked::after{
+	background-color: #2b80e6;
+	color: #fff;
+>>>>>>> Stashed changes
 }
 
 input[type=submit]{
@@ -830,8 +902,6 @@ html{
 	scroll-behavior: smooth;
 }
 
-
-
 .faixapg{
 	height: 60px;
 	background-color: #f9c411;
@@ -841,31 +911,6 @@ html{
 	display: flex;
 }
 
-/*Espaço em branco*/
-.reservahome{
-	font-family: 'MostraNuova';
-	font-size: 20px;
-	color: white;
-	margin-top: 50px;
-	padding-left: 250px;
-}
-
-#bt-cliqueaqui{
-	margin-left: 1000px;
-	padding: .75rem 1.5rem;
-	border: 1px solid #2b80e6;
-	font-size: 1.2rem;
-	border-radius: 1rem;
-	color: #fff;
-    background-color: #2b80e6;
-
-}
-#bt-cliqueaqui:hover{
-	border: 1px solid #2b80e6;
-	background-color: #ffffff;
-	color: #2b80e6;
-	text-decoration: none;
-}
 
 /*margin-left: 1000px;
 	margin-bottom: 6000px;
