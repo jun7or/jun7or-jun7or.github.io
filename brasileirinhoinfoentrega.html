@@ -82,7 +82,7 @@
 <!---------------------|DAQUI PARA BAIXO, É O MIOLO DA PÁGINA|------------------------>
 
 		<!--ESPAÇO ONDE SERÁ COLOCADO O CONTEÚDO DO MIOLO-->
-		<main class="row entrega">
+		<main class="row entrega qb">
 			<!--LADO ESQUERDO, onde tem o formulário do usuário-->
 			<div class="col-6 esq">
 				<div class="adinfo">
@@ -98,7 +98,7 @@
 						<input type="text" id="Endereço" name="Endereço" placeholder="Endereço*" required>
 						<input type="text" id="Bairro" name="Bairro" placeholder="Bairro*" required>
 						<input type="text" id="CEP" name="CEP" placeholder="CEP*" required>
-						<input type="Telefone" id="Telefone" name="Telefone" placeholder="Telefone*" required>	
+						<input type="text" id="Telefone" name="Telefone" placeholder="Telefone*" required>	
 				</div>
 			</div>
 
@@ -112,6 +112,12 @@
 
 				<!--FORMULÁRIO DO CARTÃO-->
 					<div class="form2">
+							<input type="text" id="Numero do cartao" name="Numero_do_cartao" placeholder="Numero do cartao*" required>
+							<input type="text" id="Validade" name="Validade" placeholder="Validade*" required>
+							<input type="text" id="CVV" name="CVV" placeholder="CVV*" required>
+							<input type="text" id="Nome_do_Titular" name="Nome_do_Titular" placeholder="Nome do Titular*" required>
+							<input type="text" id="CPF/CNPJ_do_Titular" name="CPF/CNPJ_do_Titular" placeholder="CPF/CNPJ do Titular*" required>	
+
 							<input type="text" id="Numero do cartao" name="Numero_do_cartao" placeholder="Numero do cartao*" minlength="16" maxlength="16" required>
 							<input type="date" id="Validade" name="Validade" placeholder="Validade*" required>
 							<input type="text" id="CVV" name="CVV" placeholder="CVV*" minlength="3" maxlength="3" required>
@@ -121,19 +127,14 @@
 							<input type="submit" value="Finalizar" class="finalizar">	
 						</form>
 					</div>
-					<!-- <div>
-						<button type="button" class="btn btn-primary" class="voltarinfo">Voltar</button>
-						<a class="nav-link" href="brasileirinhoadc.html">
-					</div> -->
 					<div>
 						<!--BOTÕES-->
 						<!--Para mexer em todas as caracteristicas-->
 						<ul  class="nav nav-br_info_botoes">
 							<!--Para mexer apenas nos botões-->
-							<li class="nav-voltar "><p><a href="cardapioporcoes.html" id="bt3-azul">Voltar</a></p></li>
+							<li class="nav-voltar "><p><a href="brasileirinhoadc.html" id="bt3-azul">Voltar</a></p></li>
 						</ul>
 					</div>
-
 				</nav>
 			</div>
 		</main>
