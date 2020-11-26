@@ -557,6 +557,8 @@ select, option{
 	font-size: 25px;
 	font-family: 'Roboto';
 	color: #41AB6F;
+	margin-bottom: 20px;
+	list-style-type: none;
 }
 
 /*LADO ESQUERDO*/
