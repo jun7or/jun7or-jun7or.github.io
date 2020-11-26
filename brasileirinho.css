@@ -121,6 +121,7 @@ src: url("Fontes/Roboto/Roboto-Regular.otf");
 .res-txt{
 	display: flex;
 	text-align: center;
+	flex-direction: column;
 }
 
 .reservahome{
@@ -794,7 +795,7 @@ li .bot-txt{
     user-select: none;
     border: 1px solid #2b80e6;
     padding: .75rem 1.5rem;
-    margin-left: -20px;
+    margin-left: 10px;
     font-size: 1.2rem;
     line-height: 1.5rem;
     border-radius: 1rem;
@@ -872,3 +873,8 @@ html{
     border-radius: 1rem;
     color: #fff;
     background-color: #2b80e6;
+*/
+
+.btn-adc{
+	display: flex;
+}
