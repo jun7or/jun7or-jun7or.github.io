@@ -295,7 +295,7 @@ src: url("Fontes/Roboto/Roboto-Regular.otf");
 	font-family: 'MostraNuova';
 	background-color: #fff;
 	color: #505050;
-	padding: 6	12	6	12;
+	padding: 6px 12px 6px 12px;
 	border-radius: 100px;
 	border: 1px solid #248a47;
 }
@@ -309,7 +309,7 @@ src: url("Fontes/Roboto/Roboto-Regular.otf");
     top: -100%;
     left: 0px;
     width: 100%;
-    padding: 6 12 6 12;
+	padding: 6px 12px 6px 12px;
     position: absolute;
     color: #fff;
     background-color: #248a47;
@@ -397,10 +397,9 @@ input[type=email]{
 	border-color: lightgrey;
 }
 
-input[type=telefone]{
+input[type=tel]{
 	width: 48.8%;
 	padding: 5px;
-	/*margin: 8px 8px 10px 8px;*/
 	border-radius: 8px;
 	border-color: lightgrey;
 }
@@ -414,7 +413,7 @@ input[type=date]{
 	color: grey;
 }
 
-label[for=Idade]{
+label[for=idade]{
 	padding-left: 15px;
 	color: grey;
 }
@@ -441,6 +440,7 @@ input[type=submit]{
 	border-right: 2px solid lightgrey;
 	border-radius: 6px;
 	width: 46.5%;
+	color: grey;
 }
 
 .jantar{
@@ -452,6 +452,7 @@ input[type=submit]{
 	border-right: 2px solid lightgrey;
 	border-radius: 6px;
 	width: 47.2%;
+	color: grey;
 }
 
 input[type="radio"]{

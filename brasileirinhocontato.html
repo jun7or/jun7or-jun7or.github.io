@@ -103,15 +103,15 @@
 		<div id="form">
 			<form style="margin-bottom: -28px">
 				<input type="text" id="Nome" name="Nome_Completo" placeholder="Nome completo do responsável*" required><br>
-				<input type="Email" id="Email" name="Email" placeholder="E-mail*" required>
-				<input type="Telefone" id="Telefone" name="Telefone" placeholder="Telefone*" pattern="[0-9]{11} or [0-9]{10}" required><br>
-				<input type="date" id="date" name="Data" placeholder="Data da Reserva*" required>
+				<input type="email" id="Email" name="Email" placeholder="E-mail*" required>
+				<input type="tel" id="Telefone" name="Telefone" placeholder="Telefone*" pattern="[0-9]{11} or [0-9]{10}" required><br>
+				<input type="date" id="date" name="Data" required>
 				
-				<label for="Idade">Numero de Pessoas para a Reserva*</label>
+				<label for="idade">Numero de Pessoas para a Reserva*</label>
 				<input type="number" id="idade" name="idade" min="1" max="8"><br><br>
                 <div class="row">
     				<div class="almoco">
-        				<label for="genero">Selecione um horário para sua reserva - Almoço:</label><br>
+        				<p>Selecione um horário para sua reserva - Almoço:</p>
         				<input type="radio" name="hrrio" value="11:30">
                         <input type="radio" name="hrrio" value="12:00">
                         <input type="radio" name="hrrio" value="13:30">
@@ -119,7 +119,7 @@
                         <input type="radio" name="hrrio" value="15:00">
                     </div>
                     <div class="jantar">
-        				<label for="genero">Selecione um horário para sua reserva - Jantar:</label><br>
+        				<p>Selecione um horário para sua reserva - Jantar:</p>
         				<input type="radio" name="hrrio" value="18:00">
                         <input type="radio" name="hrrio" value="19:30">
                         <input type="radio" name="hrrio" value="20:10">
@@ -150,6 +150,6 @@
                 <p class="txt-dev mx-auto mb-0">Criadores: Elizabeth Bisuli de Souza, Pedro Henrique Demercian Junior e Reginaldo José dos Santos Junior</p>
             </div>
         </div>
-
+    </div>
 </body>
 </html>
