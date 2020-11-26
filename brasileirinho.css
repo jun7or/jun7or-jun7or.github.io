@@ -428,24 +428,24 @@ input[type=submit]{
 /*ESTILO HORARIO RESERVA*/
 .almoco{
 	padding: 10px;
+	margin: 0px 5px 0px 24px;
+	border-top: 2px solid grey;
+	border-left: 2px solid grey;
+	border-bottom: 2px solid lightgrey;
+	border-right: 2px solid lightgrey;
+	border-radius: 6px;
+	width: 46.5%;
+}
+
+.jantar{
+	padding: 10px;
 	margin: 0px 0px 0px 8px;
 	border-top: 2px solid grey;
 	border-left: 2px solid grey;
 	border-bottom: 2px solid lightgrey;
 	border-right: 2px solid lightgrey;
 	border-radius: 6px;
-	width: 48%;
-}
-
-.jantar{
-	padding: 10px;
-	margin: 0px 0px 10px 8px;
-	border-top: 2px solid grey;
-	border-left: 2px solid grey;
-	border-bottom: 2px solid lightgrey;
-	border-right: 2px solid lightgrey;
-	border-radius: 6px;
-	width: 48%;
+	width: 47.2%;
 }
 
 input[type="radio"]{
