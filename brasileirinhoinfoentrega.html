@@ -112,11 +112,11 @@
 
 				<!--FORMULÁRIO DO CARTÃO-->
 					<div class="form2">
-							<input type="text" id="Numero do cartao" name="Numero_do_cartao" placeholder="Numero do cartao*" required>
+							<input type="text" id="Numero do cartao" name="Numero_do_cartao" placeholder="Numero do cartao*" minlength="16" maxlength="16" required>
 							<input type="text" id="Validade" name="Validade" placeholder="Validade*" required>
-							<input type="text" id="CVV" name="CVV" placeholder="CVV*" required>
+							<input type="text" id="CVV" name="CVV" placeholder="CVV*" minlength="3" maxlength="3" required>
 							<input type="text" id="Nome_do_Titular" name="Nome_do_Titular" placeholder="Nome do Titular*" required>
-							<input type="text" id="CPF/CNPJ_do_Titular" name="CPF/CNPJ_do_Titular" placeholder="CPF/CNPJ do Titular*" required>	
+							<input type="text" id="CPF/CNPJ_do_Titular" name="CPF/CNPJ_do_Titular" placeholder="CPF/CNPJ do Titular*" minlength="11" maxlength="14" required>	
 							
 							<input type="submit" value="Finalizar" class="finalizar">	
 						</form>
