@@ -105,8 +105,8 @@ src: url("Fontes/Roboto/Roboto-Regular.otf");
 }
 
 .faixa-res{
-	margin-top: 2px #fff;
-	margin-bottom: 2px #fff;
+	border-top: 2px solid #fff;
+	border-bottom: 2px solid #fff;
 	height: 120px;
 	background-color: #f9c411;
 
