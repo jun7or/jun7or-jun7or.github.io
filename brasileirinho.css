@@ -692,6 +692,7 @@ img.displayed{
     border-radius: 6px;
     color: #fff;
     background-color: #2b80e6;
+    display: inline-block;
 }
 
 #bt3-azul:hover{
