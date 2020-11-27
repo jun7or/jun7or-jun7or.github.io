@@ -663,7 +663,7 @@ img.displayed{
 
 /*botão "voltar"*/
 #bt3-azul{
-	display: inline-block;
+	float: right;
 	font-family: 'MostraNuova';
     font-weight: 400;
     text-align: center;   
@@ -759,17 +759,21 @@ img.displayed{
 }
 
 .bt2-azul{
+    float: right;
+	font-family: 'MostraNuova';
+    font-weight: 400;
     text-align: center;   
     vertical-align: middle;
     user-select: none;
     border: 1px solid #2b80e6;
-    padding: .75rem 1.5rem;
-    margin-left: 10px;
+    padding: 7px 34px 7px 34px;
     font-size: 1.2rem;
-    line-height: 1.5rem;
-    border-radius: 1rem;
+    line-height: 1.8rem;
+    border-radius: 6px;
     color: #fff;
     background-color: #2b80e6;
+    margin-top: 20px;
+    margin-right: 20px;
 }
 
 .bt2-azul:hover{
