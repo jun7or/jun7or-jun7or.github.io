@@ -83,66 +83,62 @@
 <!--|DAQUI PARA BAIXO, É O MIOLO DA PÁGINA|-->
 
 		<!--ESPAÇO ONDE SERÁ COLOCADO O CONTEÚDO DO MIOLO-->
-		<main class="row entrega qb">
-			<!--LADO ESQUERDO, onde tem o formulário do usuário-->
-			<div class="col-6 esq">
-				<div class="adinfo">
-					<!--TÍTULO-->
-					<h4 class="br-tit3 mx-auto mb-0">Informações para entrega</h4>
-				</div>
-			</div>
+		<main class="row">
+			
 
-			<hr>
+			<div class="row linha-form">
+				<form>
+					<div class="row">
+						<div class="col-lg-1"></div>
+
+						<div class="col-lg-4">
+							<div class="row titulo">
+								<div class="col tit">
+									<h4 class="br-tit3 mx-auto mb-0">Informações para entrega</h4>
+								</div>
+							</div>
+						
+							<div class="form">	
+								<input type="text" id="Nome" name="Primeiro_Nome" placeholder="Nome*" required>
+								<input type="text" id="Sobrenome" name="Sobrenome" placeholder="Sobrenome*" required>
+								<input type="text" id="Endereço" name="Endereço" placeholder="Endereço*" required>
+								<input type="text" id="Bairro" name="Bairro" placeholder="Bairro*" required>
+								<input type="text" id="CEP" name="CEP" placeholder="CEP*" maxlength="8" minlength="8" required>
+								<input type="text" id="Telefone" name="Telefone" placeholder="Telefone*" required>
+							</div>
+						</div>	
+
+						<div class="col-lg-2"></div>
+
+						<div class="col-lg-4">
+							<div class="row titulo">
+								<div class="col tit">
+									<h4 class="br-tit3 mx-auto mb-0">Cartão débito/crédito</h4>
+								</div>
+							</div>
 
 
-
-				<!--FORMULÁRIO DO USUÁRIO-->
-				<div>
-					<form class="row">
-	                    <div class="form col-5 offset-1">
-	                    
-	                        <input type="text" id="Nome" name="Primeiro_Nome" placeholder="Nome" required>
-	                        <input type="text" id="Sobrenome" name="Sobrenome" placeholder="Sobrenome" required>
-	                        <input type="text" id="Endereço" name="Endereço" placeholder="Endereço" required>
-	                        <input type="text" id="Bairro" name="Bairro" placeholder="Bairro" required>
-	                        <input type="text" id="CEP" name="CEP" placeholder="CEP" maxlength="8" minlength="8" required>
-	                        <input type="text" id="Telefone" name="Telefone" placeholder="Telefone" required>
-	                    </div>
-
-	                    <div class="col-5">
-	                    <div class="form2">
-	                        <input type="text" id="Numero_do_cartao" name="Numero_do_cartao" placeholder="Numero do cartao" minlength="16" maxlength="16" required>
-	                        <input type="text" id="Validade" name="Validade" placeholder="Validade" required>
-	                        <input type="text" id="CVV" name="CVV" placeholder="CVV" minlength="3" maxlength="3" required>
-	                        <input type="text" id="Nome_do_Titular" name="Nome_do_Titular" placeholder="Nome do Titular" required>
-	                        <input type="text" id="CPF/CNPJ_do_Titular" name="CPF/CNPJ_do_Titular" placeholder="CPF/CNPJ do Titular*" minlength="11" maxlength="14" required>
-	                    </div>
-
-		                    <div class="row justify-content-end align-items-center">
-			                    <div class="col">
-			                        <input type="submit" value="Finalizar" class="finalizar">
-		                        </div>
-		                        <div class="col">
-		                        	<a href="brasileirinhoadc.html" id="bt3-azul">Voltar</a>
-		                        </div>
-	                        </div>
-                        </div>
-                   
-                  </form>
-                </div>
-            </div>
-
+							<div class="row form">
+								<input type="text" id="Numero_do_cartao" name="Numero_do_cartao" placeholder="Numero do cartao*" minlength="16" maxlength="16" required>
+								<input type="text" id="Validade" name="Validade" placeholder="Validade*" required>
+								<input type="text" id="CVV" name="CVV" placeholder="CVV*" minlength="3" maxlength="3" required>
+								<input type="text" id="Nome_do_Titular" name="Nome_do_Titular" placeholder="Nome do Titular*" required>
+								<input type="text" id="CPF/CNPJ_do_Titular" name="CPF/CNPJ_do_Titular" placeholder="CPF/CNPJ do Titular*" minlength="11" maxlength="14" required>
+							</div>
+							<div class="row btn-teste">
+								<div class="col-6">
+									<a href="brasileirinhoadc.html" id="bt3-azul">Voltar</a>
+								</div>
+								<div class="col-6">
+								<input type="submit" value="Finalizar" class="finalizar">
+								</div>
+							</div>	
+						</div>
+						
 					</div>
-					<div>
-						<!--BOTÕES-->
-						<!--Para mexer em todas as caracteristicas-->
-						<ul  class="nav nav-br_info_botoes">
-							<!--Para mexer apenas nos botões-->
-							<li class="nav-voltar "><p></p></li>
-						</ul>
-					</div>
-				</nav>
-			</div>
+				</form>
+				
+			</div>	
 		</main>
 
 <!--|DAQUI PARA CIMA, É O MIOLO DA PÁGINA|-->

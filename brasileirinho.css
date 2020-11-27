@@ -639,58 +639,44 @@ img.displayed{
 
 /*BRASILEIRINHO_INFO_ENTREGA*/
 /*Diminuindo o miolo*/
-.qb{
-	height: 900px;
+.linha-form{
+	margin-bottom: 50px;
+}
+
+.tit{
+	margin: 50px 0 50px 0;
 }
 
 /*Título*/
 .br-tit3{
 	background-color: #41AB6F;
-	margin-top: 15%;
 	height: 40px;
 	width: 400px;
 }
 
 /*Para MEXER na BORDA do formulário do usuário*/
 .form{
-	display: inline-block; 
 	text-align: center;
 	border: 2px solid #2B80E6;
-	float: right;
-}
-
-/*Formulário do cartão*/
-.form2{
-	display: inline-block;
-	text-align: center;
-	border: 2px solid #2B80E6;
-
-	float: left;
-}
-
-/*Para alterar a POSIÇÃO dos BOTÕES "Voltar" e "Finalizar"*/
-.nav-br_info_botoes{
-	margin: 8px 0 0 400px;
-	/*top, right, bottom, left*/
+	padding: 10px;
 }
 
 /*botão "voltar"*/
 #bt3-azul{
-	font-family: 'MostraNuova';
 	display: inline-block;
+	font-family: 'MostraNuova';
     font-weight: 400;
     text-align: center;   
     vertical-align: middle;
     user-select: none;
     border: 1px solid #2b80e6;
-    padding: .50rem 1.5rem;
-    margin-left: -20px;
+    padding: 7px 34px 7px 34px;
     font-size: 1.2rem;
-    line-height: 1.5rem;
+    line-height: 1.8rem;
     border-radius: 6px;
     color: #fff;
     background-color: #2b80e6;
-    display: inline-block;
+    margin-top: 20px;
 }
 
 #bt3-azul:hover{
@@ -701,8 +687,7 @@ img.displayed{
 }
 
 .finalizar{
-	/*width: 18%;*/
-	margin: 10px 0;
+	margin-top: 20px;
 	line-height: 1.80rem;
 	font-size: 1.2rem;
 	font-family: 'MostraNuova';
