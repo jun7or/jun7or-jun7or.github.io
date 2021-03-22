@@ -1,7 +1,12 @@
 body, ul, li, * {
     margin: 0;
     padding: 0;
+    text-decoration: none;
     list-style-type: none;
+}
+
+body {
+    font-family: nunito, sans-serif;
 }
 
 .container {
@@ -10,6 +15,7 @@ body, ul, li, * {
     height: 100vh;
 }
 
+/*TOPO*/
 header > div {
     background-color: #1570E6;
     border-radius: 0 0 25px 25px;
@@ -22,12 +28,10 @@ header div img {
     height: 40px;
     margin: 0 0 0 30px;
 }
-
+/*MIOLO*/
 section {
     display: grid;
     grid-template-columns: auto;
-    background-color: tomato;
-
 }
 
 #botao {
@@ -37,19 +41,16 @@ section {
     align-items: center;
 }
 
-body {
-    font-family: Nunito, georgia;
-}
-
 #botao > button {
     background-color: #fff;
     color: #A5A3A3;
-    border: solid 2px #1570E6;
+    border: 2px solid #1570E6;
     border-radius: 10px;
     width: 80%;
     height: 50px;
     text-align: left;
     padding: 10px;
+    margin: 30px 0 30px 0;
 }
 
 #historico {
@@ -58,21 +59,172 @@ body {
 }
 
 #biker {
-    background-color: chartreuse;
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 20px;
 }
 #biker > img {
     width: 150px;
-    background-color: blueviolet;
+    height: 150px;
 }
 
 #txt-rota {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    padding: 10px;
+}
+
+#txt-rota > p {
+    color: #A5A3A3;
+}
+
+#cel {
+    grid-column: 1 / 3;
+    display: flex;
+    justify-content: center;
+}
+
+#cel > img {
+    width: 150px;
+    margin: 30px;
+}
+
+#contato {
+    grid-column: 1 / 3;
+    padding: 30px;
+}
+
+#contato > h1 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#contato > p {
+    color: #A5A3A3;
+    text-align: justify;
+}
+
+#form-ctt {
+    grid-column: 1 / 3;
+}
+
+input[type=tel] {
+    border: none;
+    border-bottom: 2px solid #1570E6;
+    width: 80%;
+    height: 50px;
+}
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 17px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 13px;
+    width: 13px;
+    left: 2px;
+    bottom: 2px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: #1570E6;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #1570E6;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(13px);
+    -ms-transform: translateX(13px);
+    transform: translateX(13px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 17px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+input[type=submit] {
+    background-color: #1570E6;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    width: 80%;
+    height: 50px;
 }
 
 /*FOOTER*/
 
 footer {
     background-color: #1570E6;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
+
+#lista > ul {
+    margin: 30px 0 0 30px;
+}
+
+#lista > ul > li > a {
+    font-size: 14px;
+    color: #fff;
+}
+
+footer > p {
+    grid-column: 1 / 3;
+    color: #fff;
+    margin: 0 0 0 30px;
+}
+
+#redes > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#redes > ul > li {
+    margin: 30px 30px 0 0;
+}
+
+.icone {
+    height: 25px;
+}
+
+
 
