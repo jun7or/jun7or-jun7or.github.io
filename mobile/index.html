@@ -6,59 +6,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Introdução aula 02</title>
     <link rel="stylesheet" href="style.css">
+    <script>
+        window.addEventListener("load", () => {
+          splashOut();
+        })
+  
+        function splashOut() {
+          var splash = document.querySelector(".splash-screen");
+          splash.classList.add("splash-screen-out");
+  
+          setTimeout(() => {
+            splash.className = "splash-screen-none";
+          }, 1500);
+        }
+      </script>
+    <script src="https://kit.fontawesome.com/8271fa5881.js" crossorigin="anonymous"></script>
+    <!--script google-->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script src="./index.js"></script>
 </head>
 
 <body>
-
-    <div class="container">
-
-        <header>
-            <div>
-                <img src="imagens/bikelogo.png" alt="">
-            </div>
-        </header>
-
-        <section>
-            <div id="botao">
-                <button>Para onde?</button>
-            </div>
-            <div id="historico">
-                histórico locais
-            </div>
-            <div id="biker">
-                <img src="imagens/biker.png" alt="">
-            </div>
-            <div id="txt-rota">
-                <h1>Rota Inteligente</h1>
-                <p>A rota inteligente vai te ajudar a sinalizar qual caminho você seguirá.</p>
-            </div>
-
-            <div id="contato">
-                <h1>Contatos de Segurança</h1>
-                <p>Adicione contatos de confiança para ter uma melhor segurança enquanto pedala</p>
-            </div>
-            <div id="cel">
-               <img src="imagens/celular.png" alt="">
-            </div>
-            
-            <form action="">
-                <input type="tel" placeholder="Digite o número">
-                <div id="sinc-ctt"> 
-                <p>Sincronizar contatos</p>
-                <label class="switch">
-                    <input type="checkbox">
-                    <span class="slider round"></span>
-                </label>
-                </div>
-                <input type="submit" value="Salvar">
-            </form>
-        </section>
-
-        <footer>
-
-        </footer>
-
+    <div class="splash-screen">
+        <img src="imagens/bike.png" alt="">
     </div>
+
+    <header>
+        <img src="imagens/bikelogo.png" alt="">
+    </header>
+
+    <nav class="menu">
+        <a href="#bluetooth" class="ativo"><i class="fab fa-bluetooth"></i></a>
+        <a href="#rota"><i class="fas fa-location-arrow"></i></a>
+    </nav>
+
+    <div>
+        <div class="secao-tela ativo" id="bluetooth">
+          <div id="bluetooth-layout">
+            <div id="bt-div">
+              <i class="fab fa-bluetooth-b"></i>
+            </div>
+            <h1> Ligue o Bluetooth</h1>
+            <p>Precisamos que você ligue o Bluetooth para nos conectarmos com seu capacete.</p>
+            <button class="btn-bluetooth">Conectar</button>
+            
+          </div>
+        </div>
+  
+        <div class="secao-tela" id="rota">
+          <div id="rota-layout">
+            <div id="controles">
+              <input id="origin-input" class="controls" type="text" placeholder="Seu local"/>
+        
+              <input id="destination-input" class="controls" type="text" placeholder="Para onde?"/>
+        
+            </div>
+        
+            <div id="map"></div>
+            <div id="right-panel"></div>
+            
+          </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBC4spylYN_RdpBgtR6eyDyk0FpBHX26qg&callback=initMap&libraries=places&v=weekly&libraries=places"
+    async
+  ></script>
 
 </body>
 </html>
